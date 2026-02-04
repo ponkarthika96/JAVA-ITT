@@ -2,11 +2,11 @@ import java.util.*;
 class Sports{
 
     String getName(){
-        return "Generic Sports";
+        return "Sports";
     }
   
     void getNumberOfTeamMembers(){
-        System.out.println( "Each team has n players in " + getName() );
+        System.out.println( "Each team has  10 players in " + getName() );
     }
 }
 
@@ -35,3 +35,4 @@ public class Solution{
         c2.getNumberOfTeamMembers();
 	}
 }
+
